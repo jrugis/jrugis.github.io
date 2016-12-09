@@ -1,9 +1,13 @@
-\section{Prime Numbers}
+\section*{Prime Numbers}
 
-The prime numbers are defined as the set of all natural numbers greater than one which are not divisible by any natural number other than one and itself.
+\begin{definition}
+The \textbf{prime numbers} are defined as the set of all natural numbers greater than one which are not divisible by any natural number other than one and itself.
+\end{definition}
 
-\subsection{Fundamental Theorem of Arithmetic}
+\subsection*{Fundamental Theorem of Arithmetic}
+\begin{theorem}
 Every integer greater than one is either a prime or the product of prime numbers. This product is unique up to the ordering of the factors.
+\end{theorem}
 \begin{proof}
 Consider an ordered (e.g. ascending) and grouped (into powers) complete factorisation of an integer H greater than one.
 Such a factorisation takes the form $\displaystyle H = f_1^{r_1} f_2^{r_2} \dots f_M^{r_M}$ where each $f_m$ is a unique prime.
@@ -14,12 +18,15 @@ In the second case, the larger of $f_m^{r_m}$ or $g_m^{s_m}$ both divides $H$ an
 Thus, any such factorisation is unique.
 \end{proof}
 
-\subsection{The number of primes is infinite.}
+\subsection*{The Number of Primes}
+\begin{theorem}
+The number of primes is infinite.
+\end{theorem}
 \begin{proof}
 Assume that the number of primes is finite. Consider the number constructed by adding one to the product of those primes. None of those primes divide the number (because the remainder is one), so either it is an additional prime or it is divisible by at least one additional prime, both of which contradict the initial assumption. Therefore, the number of primes is infinite.
 \end{proof}
 
-\subsection{Prime Gaps}
+\subsection*{Prime Gaps}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.7\textwidth]{images/PrimeDif.pdf}\\
@@ -27,10 +34,12 @@ The differences between the first one thousand pairs of successive primes.
 \end{center}
 \end{figure}
 
-\subsection{The Harmonic Series and Prime Numbers}
+\subsection*{The Harmonic Series and Prime Numbers}
+\begin{theorem}
 \begin{equation*}
 \sum_{n=1}^{\infty}\frac{1}{n} =\prod_{n=1}^\infty\frac{1}{1-p_n^{-1}}
 \end{equation*}
+\end{theorem}
 
 \begin{proof}
 \begin{spacing}{1.2}
@@ -46,7 +55,7 @@ The differences between the first one thousand pairs of successive primes.
 \end{spacing}
 \end{proof}
 
-\subsection{The Sum of the Reciprocals of the Primes}
+\subsection*{The Sum of the Reciprocals of the Primes}
 \begin{equation*}
 \sum_{n=1}^{\infty}\frac{1}{p_n}\text{ diverges.}
 \end{equation*}
@@ -64,7 +73,7 @@ Since $\displaystyle\frac{1}{p_n - 1} < \frac{1}{p_n}$,
 $\displaystyle\;\sum_{n=1}^\infty\frac{1}{p_n}$ is also divergent.
 \end{proof}
 
-\subsection{The Prime Counting Function and the Logarithmic Integral}
+\subsection*{The Prime Counting Function and the Logarithmic Integral}
 
 The prime counting function $\pi(x)$ is defined as the number of primes less than or equal to $x$.\\
 
@@ -79,17 +88,17 @@ The logarithmic integral, $\quad\displaystyle\text{Li}(x) \equiv \int_{2}^{x}\fr
 \end{center}
 \end{figure}
 
-\subsection{The logarithmic integral is assymptotic to $x/\ln(x)$.}
+\subsection*{The logarithmic integral is assymptotic to $x/\ln(x)$.}
 \begin{equation*}
 \text{Li}(x) \sim \frac{x}{\ln(x)}
 \end{equation*}
 
-\subsection{Prime Number Theorem (PNT)}
+\subsection*{Prime Number Theorem (PNT)}
 \begin{equation*}
 \pi(x) \sim \frac{x}{\ln(x)}
 \end{equation*}
 
-\subsection{Reimann Function $\text{R}(x)$}
+\subsection*{Reimann Function $\text{R}(x)$}
 
 \begin{align*}
 \text{R}(x) &=\sum_{n=1}^{\infty}\frac{\mu(n)}{n}\text{Li}(x^{1/n})\\

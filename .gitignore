@@ -1,3 +1,4 @@
+*.py
 tex/*.tex
 tex/images/*.pdf
 

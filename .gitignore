@@ -1,6 +1,8 @@
 *.py
+*.pyc
 tex/*.tex
 tex/images/*.pdf
+template.html
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

@@ -1,0 +1,22 @@
+* C:\Rugis\Research & Publications\Circuit Modeling\Circuit Modeling & Simulation #3 article\diode\diode1.sch
+
+* Schematics Version 8.0 - July 1997
+* Fri Aug 27 13:01:23 2004
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [SCHEMATICS NETLIST] section of msim.ini:
+.lib nom.lib
+
+.INC "diode1.net"
+.INC "diode1.als"
+
+
+.probe
+
+
+.END

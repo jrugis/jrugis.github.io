@@ -1,0 +1,229 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=2.0cm,paperwidth=180mm,paperheight=1200mm]{geometry}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amstext}
+\usepackage{amsthm}
+\usepackage{esint} % more integral signs 
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{url}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\setstretch{1.1}
+
+\begin{document}
+\title{An Exploration of a Bijective Mapping in the Integers}
+\author{John Rugis}
+\date{December 18, 2016}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+In this article we begin by considering the possible existence of two bijective integer valued functions where the sum of the functions is also bijective.
+An example of two such functions is produced.
+Some interesting properties of these functions, as well as the algorithm that is used to produce them, are both explored. 
+\end{abstract}
+
+\section{Preliminaries}
+Given two functions $f:\mathbb Z\!\rightarrow\!\mathbb Z$ and $g:\mathbb Z\!\rightarrow\!\mathbb Z$,
+define a new function $(f\!+\!g):\mathbb Z\!\rightarrow\!\mathbb Z$ by $(f\!+\!g)(n)=f(n)+g(n)$. 
+Is it possible that $f$ and $g$ as well as $f\!+\!g$ could all be bijective?
+We will prove that it is possible by producing an example.\\
+
+We begin by sequentially selecting and plotting points $(f(n),g(n))$
+on a graphic grid that represents $\mathbb Z^2$.
+We will work our way through all of $\mathbb Z$ by considering $n$'s in the order
+$0,+1,-1,+2,-2,+3,-3,\dots$
+and impose three sufficient conditions.\\
+
+\noindent\textbf{Selection Conditions:}
+\begin{enumerate}
+\item
+We will select points $(f(n),g(n))\!\in\! \mathbb Z^2$ such that for all $n \!\in\! \mathbb Z$, $f(n)+g(n)=n$.
+This will ensure that $(f\!+\!g)(n)$ is bijective.
+\item
+If we are careful in our selection of points $(f(n),g(n))$ making sure that
+$f(n)$ never maps to the same value twice and
+$g(n)$ never  maps to the same value twice,
+then both $f(n)$ and $g(n)$ will be injective.
+\item
+And finally, if we are also careful in our selection of points $(f(n),g(n))$ making sure that $f(n)$ and $g(n)$ map to all elements of $\mathbb Z$,
+then $f(n)$ and $g(n)$ will be surjective.
+\end{enumerate}
+\vspace{0.4cm}
+In the next section we produce an example that meets these conditions.\\
+
+\section{A Mapping Algorithm}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Z2_00.pdf}\\
+\end{center}
+\caption{Beginning at the point plot of $(f(n),g(n))$ in $Z^2$ on the left. The first
+dashed \emph{keep-off} lines are shown on the right.}
+\label{fig:00}
+\end{figure}
+
+Starting with $n=0$, we note that, to meet condition 1, the point $(f(0),g(0))$ will need to be on the line labeled $n=0$ in Figure \ref{fig:00}. 
+Let's (somewhat arbitrarily) start by selecting the point $(0,0)$.
+Next we draw two dashed \emph{keep-off} lines $f(n)=0$ and $g(n)=0$.
+If we make sure that no other points that are selected lie on a keep-off line, then we will have met condition 2.\\
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Z2_01.pdf}\\
+\end{center}
+\caption{Evolving point selection.}
+\label{fig:01}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Z2_02.pdf}\\
+\end{center}
+\caption{Plotted points up to $n=\pm6$.}
+\label{fig:02}
+\end{figure}
+
+As we work our way through values of $n$, we note that the points we select need to lie on their respective diagonal line as shown in the evolving plot Figure \ref{fig:01}.
+In a systematic effort to meet condition 3, we will select points that are as close to $(0,0)$ as possible.
+So, for $n=1$ we select the point $(2,-1)$ and for $n=-1$ we select the point $(-2,1)$ as shown in Figure \ref{fig:01}.
+And then, following the same rule, for $n=2$ we select the point $(-1,3)$ and for $n=-2$ we select the
+point $(1,-3)$.
+As we continue systematically plotting points, we make the side observation that the plotted points appear to closely fit two lines passing through zero (see Figure \ref{fig:02}).\\
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{c|c|c|c|c}
+\multicolumn{2}{c}{$n$ odd} &\multicolumn{1}{c}{} &\multicolumn{2}{c}{$n$ even}\\
+$f(n)$ &$g(n)$ &$n$ &$f(n)$ &$g(n)$ \\
+\hline
+ & &0 &0 &0 \\ \hline
+2 &-1 &1 & & \\ \hline
+ & &2 &-1 &3 \\ \hline
+5 &-2 &3 & & \\ \hline
+ & &4 &-3 &7 \\ \hline
+9 &-4 &5 & & \\ \hline
+ & &6 &-4 &10 \\ \hline
+12 &-5 &7 & & \\ \hline
+ & &8 &-6 &14 \\ \hline
+15 &-6 &9 & & \\ \hline
+ & &10 &-7 &17 \\ \hline
+19 &-8 &11 & & \\ \hline
+ & &12 &-9 &21 \\ \hline
+22 &-9 &13 & & \\ \hline
+ & &14 &-10 &24 \\ \hline
+26 &-11 &15 & & \\ \hline
+ & &16 &-11 &27 \\ \hline
+29 &-12 &17 & & \\
+\end{tabular}
+\end{center}
+\caption{Tabulated values for $0\le n\le 17$.}
+\label{tab:00}
+\end{table}
+
+In an attempt to discover an algebraic (as opposed to geometric) definition for our sequence of $f(n)$ and $g(n)$ values, we continue with a list of values as shown in Table 1.
+Note that because of the symmetries $f(-n) = -f(n)$ and $g(-n) = -g(n)$, we can, without loss of generality, use a table that gives values only for $n\ge0$ as shown in Table \ref{tab:00}. 
+The table has been split into columns for odd and even values of $n$.
+Note that when $n$ is odd, $f(n)$ is positive and $g(n)$ is negative.
+For all even values of $n$ greater than zero, $f(n)$ is negative and $g(n)$ is positive.\\
+
+Observation of the evolving pattern leads to the following algorithm for specifying the sequence of values for $f(n)$ and $g(n)$:\\
+
+\noindent\textbf{Mapping Algorithm 1: (A strongly recursive definition.)}
+\begin{enumerate}
+\item
+Initialise $n$ equal to zero.
+\item
+If $n$ is even, set $f(n)$ equal to $-1$ times the smallest non-negative integer
+value not in the set of the absolute values of already used $f(n)$'s. 
+Then assign $g(n)$ such that $f(n) + g(n) = n$.
+\item
+If $n$ is odd, set $g(n)$ equal to $-1$ times the smallest non-negative integer
+value not in the set of the absolute values of already used $g(n)$'s.
+Then assign $f(n)$ such that $f(n) + g(n) = n$.
+\item
+Increment $n$ by one and loop to step 2.
+\end{enumerate}
+\vspace{0.4cm}
+
+Of course, by the previously mentioned symmetry conditions, to complete the mapping, for all negative $n$, $f(n) = -f(-n)$ and $g(n) = -g(-n)$.\\
+
+The algorithm guarantees that both $f(n)$ and $g(n)$ are surjective (selection condition 3) by virtue of the criteria ``smallest non-negative integer value not in the set".
+All values of $f(n)$ and $g(n)$ will eventually get filled-in.\\
+
+To show that $f(n)$ and $g(n)$ are both injective (selection condition 2), we first note that and no duplicate values will be assigned by the ``smallest non-negative integer value not in the set" criteria.
+Thus, for $f(n)$ when $n$ is odd, we need to show that, in algorithm step 3, $f(n)$ is always assigned a larger target value than the previous odd $n$ and also that a smaller value hole is left unused for algorithm step 2 to subsequently fill-in.\\
+
+To do this it will suffice to show that for all $n$, $f(n + 2) > f(n) + 2$.\\
+
+\begin{proof}
+\hfill
+\begin{enumerate}
+\item Assume $n$ is odd.
+\item By algorithm 1, step 3, $f(n) = n-g(n)$.
+\item Adding 2 to $n$, $f(n+2) = (n+2)-g(n+2)$.
+\item By algorithm 1, step 3, $g(n+2) < g(n)$.
+\item Therefore, $-g(n+2) > -g(n)$.
+\item Adding $(n + 2)$, $(n+2)-g(n+2) > (n+2)-g(n)$.
+\item Regrouping, $(n + 2)-g(n+2) > (n-g(n))+2$.
+\item Substituting from steps (2) and (3), $f(n+2) > f(n)+2$.
+\end{enumerate}
+\end{proof}
+
+A similar argument can be applied to $g(n)$.
+Thus, we have an algorithm that meets the selection conditions, thereby generating an instance of the bijective mapping that we set out to find.\\
+
+\section{Further Exploration}
+The fact that, as previously observed, the plotted points in Figure \ref{fig:02} appear to closely fit two lines, leads us to consider the possibility of an equivalent non-recursive definition for $f(n)$ and $g(n)$.
+With the assistance of a computer, we calculated the values of $f(n)$ and $g(n)$ for $0\le n\le 10000001$.
+Some of the results are shown in Table 2.\\
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{c|c|c|c}
+$n$ &$f(n)$ &$g(n)$ &$g(n)/f(n)$\\ \hline
+9999 &17069 &-7070 &-0.414201183432\\ \hline
+10000 &-7071 &17071 &-2.41422712488\\ \hline
+10001 &17073 &-7072 &-0.41422128507\\ \hline
+99999 &170709 &-70710 &-0.414213661846\\ \hline
+100000 &-70711 &170711 &-2.41420712478\\ \hline
+100001 &170712 &-70711 &-0.414212240499\\ \hline
+999999 &1707105 &-707106 &-0.414213536953\\ \hline
+1000000 &-707107 &1707107 &-2.41421312475\\ \hline
+1000001 &1707108 &-707107 &-0.414213394817\\ \hline
+9999999 &17071066 &-7071067 &-0.414213558778\\ \hline
+10000000 &-7071068 &17071068 &-2.41421352475\\ \hline
+10000001 &17071070 &-7071069 &-0.414213578879\\ \end{tabular}
+\end{center}
+\caption{Some values generated by Mapping Algorithm 1.}
+\label{tab:01}
+\end{table}
+
+The values of $f(n)$ and $g(n)$, especially when $n$ is a power of 10, look familiar!
+Based on these observations, we conjecture that:\\
+
+For even $n$,
+\begin{eqnarray}
+\lim_{n\to\infty}\frac{f(n)}{n} = -\frac{1}{\sqrt2}\\
+\lim_{n\to\infty}\frac{g(n)}{n} = 1+\frac{1}{\sqrt2}\\
+\lim_{n\to\infty}\frac{g(n)}{f(n)} = -\left(1+\sqrt2\right)
+\end{eqnarray}
+and for odd $n$,
+\begin{eqnarray}
+\lim_{n\to\infty}\frac{f(n)}{n} = 1+\frac{1}{\sqrt2}\\
+\lim_{n\to\infty}\frac{g(n)}{n} = -\frac{1}{\sqrt2}\\
+\lim_{n\to\infty}\frac{g(n)}{f(n)} = -\left(\frac{1}{1+\sqrt2}\right)
+\end{eqnarray}
+
+
+\section{A Variation}
+
+\section{A Generalisation}
+
+\section{Conclusion}
+
+\end{document}

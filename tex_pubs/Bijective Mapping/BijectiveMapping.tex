@@ -157,25 +157,25 @@ The algorithm guarantees that both $f(n)$ and $g(n)$ are surjective (selection c
 All values of $f(n)$ and $g(n)$ will eventually get filled-in.\\
 
 To show that $f(n)$ and $g(n)$ are both injective (selection condition 2), we first note that and no duplicate values will be assigned by the ``smallest non-negative integer value not in the set" criteria.
-Thus, for $f(n)$ when $n$ is odd, we need to show that, in algorithm step 3, $f(n)$ is always assigned a larger target value than the previous odd $n$ and also that a smaller value hole is left unused for algorithm step 2 to subsequently fill-in.\\
+Thus, when $n$ is odd, we need to show that, in algorithm step 3, $f(n)$ is always assigned a larger target value than the previous odd $n$ and also that a smaller value hole is left unused for algorithm step 2 to subsequently fill-in.\\
 
-To do this it will suffice to show that for all $n$, $f(n + 2) > f(n) + 2$.\\
+To do this it will suffice to show that for all odd $n$, $f(n + 2) > f(n) + 2$.\\
 
 \begin{proof}
 \hfill
 \begin{enumerate}
 \item Assume $n$ is odd.
-\item By algorithm 1, step 3, $f(n) = n-g(n)$.
+\item By Mapping Algorithm 1, step 3, $f(n) = n-g(n)$.
 \item Adding 2 to $n$, $f(n+2) = (n+2)-g(n+2)$.
-\item By algorithm 1, step 3, $g(n+2) < g(n)$.
+\item By Mapping Algorithm 1, step 3, $g(n+2) < g(n)$.
 \item Therefore, $-g(n+2) > -g(n)$.
 \item Adding $(n + 2)$, $(n+2)-g(n+2) > (n+2)-g(n)$.
 \item Regrouping, $(n + 2)-g(n+2) > (n-g(n))+2$.
-\item Substituting from steps (2) and (3), $f(n+2) > f(n)+2$.
+\item Substituting from proof steps (2) and (3), $f(n+2) > f(n)+2$.
 \end{enumerate}
 \end{proof}
 
-A similar argument can be applied to $g(n)$.
+When $n$ is even, a similar argument can be applied to $g(n)$.
 Thus, we have an algorithm that meets the selection conditions, thereby generating an instance of the bijective mapping that we set out to find.\\
 
 \section{Further Exploration}

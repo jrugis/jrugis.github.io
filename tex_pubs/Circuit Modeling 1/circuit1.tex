@@ -7,22 +7,21 @@
 \begin{document}
 \bibliographystyle{IEEEtran.bst}
 
-\title{Symbolic Circuit Modeling and Simulation\\
+\title{Symbolic Circuit Modelling and Simulation\\
 Using a Sparse Matrix: An Introduction}
-\author{John Rugis
-\thanks{Maraetai, New Zealand. \emph{jrugis@gmail.com}}}
-\markboth{Revised December 2016 (original 01/2004)}{Rugis: Symbolic Circuit Modeling and Simulation}
+\author{John Rugis\thanks{Maraetai, New Zealand. \emph{jrugis@gmail.com}}}
+\markboth{Revised \today~(original 01/2004)}{Rugis: Symbolic Circuit Modelling and Simulation}
 \maketitle
 
 \begin{abstract}
-The first part of this article introduces some basic concepts and briefly contrasts electronic circuit modeling with circuit analysis. Then a sparse matrix generalized circuit model is built from first principles by means of an example. Finally, examples of symbolic modeling and simulation for the purposes of theorem development and circuit design validity checking are presented. Note that in this article we will be considering linear circuit elements only.
+The first part of this article introduces some basic concepts and briefly contrasts electronic circuit modelling with circuit analysis. Then a sparse matrix generalised circuit model is built from first principles by means of an example. Finally, examples of symbolic modelling and simulation for the purposes of theorem development and circuit design validity checking are presented. Note that in this article we will be considering linear circuit elements only.
 \end{abstract}
 
 \section{Introduction}
 \IEEEPARstart{W}{e} begin with the question: 
 \emph{What is an is an electronic circuit?}
 An electronic circuit is a collection of interconnected electronic components that has well-defined deterministic functionality when it is \emph{running}.
-The functionality of a circuit when it is running is fully characterized by
+The functionality of a circuit when it is running is fully characterised by
 
 \begin{enumerate}
 \item the electric current through each component,
@@ -35,22 +34,22 @@ A circuit is often thought of as a system having one or more \emph{inputs} and o
 
 When a collection of interconnected circuit elements does not have well-defined deterministic functionality we say that the circuit design is not \emph{valid}. In practice this could mean that the real-world circuit will burn-out!\\
 
-\emph{What is circuit modeling?}\\
-The modeling of electronic circuits consists of producing a mathematical representation of the circuit and all of it's characteristics.
-Circuit models are an abstraction of their real-world counterpart and as such use \emph{idealized} versions of real physical components and their interconnections.
-The modeling process is made easier by intentionally omitting any real-world considerations that are not of immediate interest eg. temperature effects.
+\emph{What is circuit modelling?}\\
+The modelling of electronic circuits consists of producing a mathematical representation of the circuit and all of it's characteristics.
+Circuit models are an abstraction of their real-world counterpart and as such use \emph{idealised} versions of real physical components and their interconnections.
+The modelling process is made easier by intentionally omitting any real-world considerations that are not of immediate interest e.g. temperature effects.
 
 Any complete circuit model includes variables for each of the circuit's characteristic currents and voltages. 
-\emph{Inputs} are modeled using (possibly additional) circuit components and \emph{outputs} are modeled as one or more of the characteristic currents or voltages.
+\emph{Inputs} are modelled using (possibly additional) circuit components and \emph{outputs} are modelled as one or more of the characteristic currents or voltages.
 Circuit models are used by circuit designers to gain insight into the functioning of circuits and as an aid in the circuit design process.
 
-We point out that circuit modeling is not the same thing as circuit analysis.
+We point out that circuit modelling is not the same thing as circuit analysis.
 Circuit analysis typically consists of applying a sequence of simplification methods one after the other until the answer to some specific question about the circuit's functionality has been reduced to the obvious.
-Circuit analysis can be characterized by saying that is done using a collection of tools and an \emph{as needed} approach.
+Circuit analysis can be characterised by saying that is done using a collection of tools and an \emph{as needed} approach.
 This \emph{analysis by simplification} has the limitation that we can ask only one question at a time about the circuit.
    
-Modeling on the other hand can answer all questions about the functioning of any given circuit \emph{simultaneously}. 
-Modeling is best done with methods that seek comprehensive generalized representation.
+Modelling on the other hand can answer all questions about the functioning of any given circuit \emph{simultaneously}. 
+Modelling is best done with methods that seek comprehensive generalised representation.
 
 Models are mostly used for simulation.
 Simulation means that we run the model, often but not necessarily  on a computer, and that the model behaves like the actual physical circuit.
@@ -59,8 +58,8 @@ It is reasonable to expect that a circuit model will give us some indication whe
 \emph{Is it possible to model a linear circuit with a single equation?}\\
 Yes! It is possible to model any given linear circuit, no matter how complex,  with a single matrix algebraic equation \cite{lc:lnc,jv:cm}.
 
-\section{A generalized circuit model}
-We will use an example and proceed step-by-step from first principles to construct a sparse matrix  \cite{gh:st} generalized model.
+\section{A generalised circuit model}
+We will use an example and proceed step-by-step from first principles to construct a sparse matrix  \cite{gh:st} generalised model.
 \subsection{Schematic diagram}
 Figure~\ref{fig:sch} shows a schematic diagram of a simple circuit that contains three components (a constant independent voltage source and two resistors) plus ground.
 Schematics are the standard representation commonly used by circuit designers to specify electronic circuits.
@@ -75,7 +74,7 @@ Other components, such as the independent voltage source, have a polarity and re
 \end{figure}
 
 A schematic diagram can be used as an unambiguous guide for building a real physical circuit and as such is a complete circuit specification.
-But the schematic diagram alone is not sufficient for circuit modeling.
+But the schematic diagram alone is not sufficient for circuit modelling.
 
 \subsection{Digraph}
 Digraphs, taken from the mathematics subject area known as graph theory, can be used to represent circuits somewhat more abstractly.  
@@ -92,7 +91,7 @@ This digraph has three \emph{nodes} which are shown as labeled dots, and three \
 Additionally, each branch has a small arrowhead that indicates an associated reference direction pointing from it's \emph{source node} to it's \emph{destination node}.
 Note that each branch corresponds to a circuit component and that the nodes correspond to interconnections.
 
-The labeling and reference directions provide the additional information required for modeling the circuit.
+The labelling and reference directions provide the additional information required for modelling the circuit.
 The digraph highlights the circuit's interconnection topology and the reference directions but omits the component types, component values, and any possible component polarity.
 
 \subsection{Netlist}
@@ -117,7 +116,7 @@ There are a number of conventions that are followed both with netlists and circu
 \item A positive numeric value for branch voltage indicates that voltage drops when moving from the source node to the destination node,  whereas a negative numeric value indicates that voltage actually drops in the opposite direction.
 \end{enumerate}
 
-The netlist is a complete circuit specification that can be used as a basis for modeling. The netlist is also conveniently computer readable.
+The netlist is a complete circuit specification that can be used as a basis for modelling. The netlist is also conveniently computer readable.
 
 \subsection{Incidence matrix.} The first step in producing a mathematical circuit representation is to construct a node-branch incidence matrix for the circuit.
 The purpose of this matrix $\mathbf{A}_a$ is to capture the circuit's interconnection topology.
@@ -308,7 +307,7 @@ Now (\ref{eq:kcl}), (\ref{eq:kvl}), and (\ref{eq:cc}) can all be combined giving
 \mathbf{u}_s
 \end{bmatrix}\label{eq:st}
 \end{equation}
-Equation (\ref{eq:st}) is a \emph{sparse matrix} generalized circuit model for linear resistive circuits.
+Equation (\ref{eq:st}) is a \emph{sparse matrix} generalised circuit model for linear resistive circuits.
 This sparse matrix equation is a complete model in that it encodes all of the circuit's component characteristics and interconnections as well as both KCL and KVL.
 Note that the sparse matrix equation has the form
 \begin{equation}
@@ -357,9 +356,9 @@ i_1\\i_2\\i_3
 -1/6\\1/6\\1/6
 \end{array}\right]
 \end{equation*}
-which fully characterizes the sample circuit when it is running.
+which fully characterises the sample circuit when it is running.
 
-\subsection{Symbolic Modeling and Simulation.} The sparse matrix circuit model equation can also be solved using symbolic rather than numerical component values.
+\subsection{Symbolic Modelling and Simulation.} The sparse matrix circuit model equation can also be solved using symbolic rather than numerical component values.
 For the sample circuit we have:
 \begin{equation*}
 \left[\begin{array}{cc|ccc|ccc}

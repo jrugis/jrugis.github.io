@@ -1,7 +1,10 @@
 *.py
 *.pyc
+*.sh
+*.bib
 tex/*.tex
-tex/images/*.pdf
+tex/src/
+tex/images/
 template.html
 
 ## Core latex/pdflatex auxiliary files:

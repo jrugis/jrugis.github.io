@@ -1,0 +1,253 @@
+A discussion of both line and surface curvature is a core feature in the subject of differential geometry, and there are many good books on this subject (e.g. \cite{Davies_1996_CGCS}, \cite{doCarmo_1976_DGCS}). Studies on surface curvature can be traced back to original work by Gauss \cite{Gauss_2005_GICS}. We will make use of concepts and data structures from computer graphics (e.g. \cite{Foley_1996_CGPP}, \cite{Lengyel_2004_M3DGP}, \cite{Hill_2007_CGOG}) throughout, especially in computations.\\
+
+%===================================================
+\section{Line Curvature}
+
+%===================================================
+\subsection{Plane Curves} \label{sec:plane_curve}
+
+A planar curve $P \subset \mathbb R^2$ can be specified parametrically as the set of points
+\begin{equation}
+P = \left\{ \mathbf{p}(t) =
+\left[
+\begin{array}{c}
+x(t) \\
+y(t)
+\end{array}
+\right]
+:
+t_{min} < t < t_{max}
+\right\}
+\end{equation}
+A point in the curve can be referred to as the point $\mathbf{p}$. The range of $t$ is always given as an \emph{increasing} interval. Note that $t$ is specified as an open interval which helps insure the differentiability of the function $\mathbf{p}(t)$ by avoiding the inclusion of end-points. Curve parameterizations have either a \emph{forward} or \emph{reverse} relative direction.\\
+
+\begin{defn}
+A curve is called \emph{smooth} if the function $\mathbf{p}(t)$ is continuously differentiable.
+\end{defn}
+
+\begin{defn}
+The \emph{speed} of a plane curve parameterization at the point $\mathbf{p}$ is
+\begin{equation}
+v(t) = ||\mathbf{\dot{p}}|| = \sqrt{(\dot{x})^2 + (\dot{y})^2}
+\end{equation}
+
+With this notational convention
+$\dot{x} = dx / dt$.
+\end{defn}
+
+\begin{defn}
+A curve parameterization $\mathbf{p}(t)$ is said to be \emph{regular} if its speed is never zero.
+\end{defn}
+
+\begin{defn}
+Any point $\mathbf{p}(t)$ at which the speed of a curve parameterization is zero is said to be a \emph{singular point} under that parameterization.
+\end{defn}
+
+Some singularities are removable under a change of parameterization; others are not removable. We will henceforth, for the most part, restrict ourselves to smooth curves having and regular curve parameterizations.
+
+\begin{defn}
+The \emph{arc-length} of a curve $P$ is given by
+\begin{equation}
+\int_{t_{min}}^{t_{max}} v(t)\, dt
+\end{equation}
+\end{defn}
+Arc-length can more generally be considered as a function of $t$ where the length is that from some starting point in the curve, parameterized by $t_{0}$, to an \emph{arbitrary point} in the curve parameterized by $t$.
+\begin{equation}
+l(t) = \int_{t_{0}}^{t} v(t)\, dt
+\label{eq:arclength}
+\end{equation}
+Arc-length is always non-negative.
+Also note that arc-length is independent of the particular parameterization that is used.\\
+
+\begin{thm}
+A regular curve reparameterized by arc-length has unit speed at all points.
+\end{thm}
+
+This reparameterization can be written as
+\begin{equation}
+P = \left\{ \mathbf{p}\big(t(l)\big) =
+\left[
+\begin{array}{c}
+x\big(t(l)\big) \\
+y\big(t(l)\big)
+\end{array}
+\right]
+:
+0 < l < l(t_{max})
+\right\}
+\end{equation}
+Note that, to write this reparameterization explicitly, we need to solve Equation~(\ref{eq:arclength}) for $t$, and this is not always possible.
+
+\begin{defn}
+The (unit length) \emph{tangent} to a curve at the point $\mathbf{p}$ is given by
+\begin{equation}
+\mathbf{\hat{t}} = \frac{\mathbf{\dot{p}}}{|| \mathbf{\dot{p}} ||} = \frac{\mathbf{\dot{p}}}{v}
+\end{equation}
+\end{defn}
+
+\begin{defn}
+The (unit length) \emph{normal} $\mathbf{\hat{n}}$ to a plane curve at a point is the tangent $\mathbf{\hat{t}}$ at that point rotated counter-clockwise by $\pi / 2$ radians.
+\end{defn}
+
+Thus, the normal can be computed from the tangent, using a transformation matrix, as follows
+\begin{equation}
+\mathbf{\hat{n}} =
+\left[
+\begin{array}{cc}
+0 & -1\\
+1 & 0
+\end{array}
+\right]
+\mathbf{\hat{t}}
+\end{equation}\\
+
+\begin{defn}
+There is a unique \emph{tangent line} associated with each point $\mathbf{p}_0$ on a curve (and the tangent $\mathbf{\hat{t}}$ at that point). The tangent line is the set of points given by:
+\begin{equation}
+P = \left\{ \mathbf{p}(t) =
+\mathbf{p}_0 + t\,\mathbf{\hat{t}}
+:
+-\infty < t < +\infty
+\right\}
+\end{equation}
+\end{defn}
+The tangent line to a curve at a given point is independent of the parameterization direction.
+
+\begin{figure}[]
+\begin{center}
+\epsfysize 50mm
+\epsfbox{chapters/curvature/curvature1}
+\end{center}
+\vspace{-12pt}
+\caption{Curvature.}
+\label{fig:curvature1a}
+\end{figure}
+
+\begin{defn}[Curvature: Plane Curves]
+Consider a planar curve with arc-length $l$ from the point $\mathbf p_0$ to the point $\mathbf p$, and the counter-clockwise angular advance $\alpha$ between the tangent lines at $\mathbf p_0$ and $\mathbf p$ as illustrated, for example, in figure~(\ref{fig:curvature1a}). Then the \emph{curvature} of the curve at the point $\mathbf p_0$ is defined to be
+\begin{equation}
+k = \lim_{\mathbf p \rightarrow \mathbf p_0} \frac{\alpha}{l} = \frac{d\alpha}{dl}
+\end{equation}
+\end{defn}
+Note that we have assigned an cartesion reference frame such that the $x$-axis  rotated counter-clockwise by $\pi/2$ radians coincides with the $y$-axis. Also note that curvature can be positive or negative, and that a change of parameterization direction changes the sign of the curvature.\\
+
+\begin{thm}
+The \emph{Frenet formula} describes the relationship between the curvature, speed, the  tangent and the normal at each point in the curve.
+\begin{equation}
+\label{eq:frenet1}
+\left[
+\begin{array}{c}
+\mathbf{\dot{\hat{t}}} \\
+\mathbf{\dot{\hat{n}}}
+\end{array}
+\right]
+=
+\left[
+\begin{array}{cc}
+0 & kv \\
+-kv & 0
+\end{array}
+\right]
+\left[
+\begin{array}{c}
+\mathbf{\hat{t}} \\
+\mathbf{\hat{n}}
+\end{array}
+\right]
+\end{equation}
+\end{thm}
+
+From equation~(\ref{eq:frenet1}), $\mathbf{\dot{\hat{t}}} = ks\,\mathbf{\hat{n}}$. So $\mathbf{\dot{\hat{t}}}$ is a scaler multiple of $\mathbf{\hat{n}}$ and is thus orthogonal to $\mathbf{\hat{t}}$. Also, since $\mathbf{\hat{n}}$ has unit length, $||\mathbf{\dot{\hat{t}}}|| = |ks|$, and the absolute value of the curvature can be computed as
+\begin{equation}
+|k| = \frac{||\mathbf{\dot{\hat{t}}}||}{s}
+\end{equation}
+
+Curvature for plane curves can be computed directly from the curve parameterization as
+\begin{equation}
+k = \frac{\dot{x}\ddot{y} - \ddot{x}\dot{y}}{(\dot{x}^2+\dot{y}^2)^{3/2}}
+\end{equation}
+or for a unit speed parameterization as simply
+\begin{equation}
+k = \dot{x}\ddot{y} - \ddot{x}\dot{y}
+\end{equation}
+
+Curvature for plane curves given as a function $y(x)$ in rectangular coordinates can be computed as
+\begin{equation}
+k = \frac{\frac{d^2y}{dx^2}}{(1+(\frac{dy}{dx})^2)^{3/2}}
+\end{equation}
+and for plane curves given as $r(\theta)$ in polar coordinates as
+\begin{equation}
+k = \frac{r^2 + 2(\frac{dr}{d\theta})^2 - r^2 (\frac{d^2r}{d\theta^2})}{(r^2+(\frac{dr}{d\theta})^2)^{3/2}}
+\end{equation}
+Note that curvature is dependant in general on both first and second derivatives.\\
+
+%===================================================
+\subsection{Curvature of Objects in 2D Space}
+
+We now extend the context of our exploration to include material drawn from both topology (e.g. \cite{Carlson_2001_TSNM}) and complex analysis (e.g. \cite{Stewart_1983_CA}). The initial goal is to apply the concept of curvature to 2D~objects in 2D~space.\\
+
+\begin{figure}[]
+\begin{center}
+\epsfysize 30mm
+\epsfbox{chapters/curvature/1D_man_00}
+\end{center}
+\vspace{-12pt}
+\caption{1D manifolds?}
+\label{fig:1D_man_00}
+\end{figure}
+
+\begin{defn}[1D Manifolds]
+A set of points in space is a \emph{1-dimensional manifold} if each of its points has a 
+neighborhood that is homeomorphic to an open interval of the real line.
+\end{defn}
+
+We will restrict ourselves to \emph{bounded}, \emph{closed}, and \emph{connected} 
+manifolds in this thesis. Note that all bounded, closed, connected 1D manifolds in 
+$\mathbb R^2$ are plane curves as described in Section \ref{sec:plane_curve}.
+
+\begin{figure}[]
+\begin{center}
+\epsfysize 30mm
+\epsfbox{chapters/curvature/2D_obj_00}
+\end{center}
+\vspace{-12pt}
+\caption{2D objects.}
+\label{fig:2D_obj_00}
+\end{figure}
+
+\begin{defn}[2D Object in 2D Space]
+We will refer to any closed set of points in $\mathbb R^2$, whose (included) boundary is a single (bounded, closed, connected) 1D manifold, as a \emph{2D object} (in 2D space). Additionally, we will refer to the associated 1D manifold as the object's \emph{boundary curve}. Any point in the object that is not included in the boundary curve is called an \emph{interior point}.
+\end{defn}
+
+If a 2D object's boundary curve is smooth, then that object has a \emph{curvature associated with each point on it's boundary}. We do, however, need to establish a convention to unambiguously determine the sign of this curvature.
+
+\begin{figure}[]
+\begin{center}
+\epsfysize 30mm
+\epsfbox{chapters/curvature/2D_obj_01}
+\end{center}
+\vspace{-12pt}
+\caption{Angle.}
+\label{fig:2D_obj_01}
+\end{figure}
+
+\begin{figure}[]
+\begin{center}
+\epsfysize 30mm
+\epsfbox{chapters/curvature/2D_obj_02}
+\end{center}
+\vspace{-12pt}
+\caption{Angle.}
+\label{fig:2D_obj_02}
+\end{figure}
+
+%2D object curvature given by a counter-clockwise parameterization.
+
+%Positive curvature, convex when viewed from outside.
+
+%Negative curvature, concave when viewed from outside.
+
+%===================================================
+%\subsection{Plane Curves in 3D Space}
+%
+%Inside and Outside reference.

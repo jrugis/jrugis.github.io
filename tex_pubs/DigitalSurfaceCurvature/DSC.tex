@@ -1,0 +1,122 @@
+\documentclass[a4paper,oneside,12pt]{book}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{palatino}
+\usepackage{makeidx} 
+\makeindex  % only with Latex2e
+\usepackage{amsmath}
+\usepackage[abbr]{harvard}
+
+% proof environment
+\def\proof{{\noindent \bf Proof.}}
+\let\endproof=\nul
+
+% def of qed square
+\def\squareforqed{\hbox{\rlap{$\sqcap$}$\sqcup$}}
+\def\qed{\ifmmode\squareforqed\else{\unskip\nobreak\hfil
+\penalty50\hskip1em\null\nobreak\hfil\squareforqed
+\parfillskip=0pt\finalhyphendemerits=0\endgraf}\fi}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{procedure}{Procedure}
+\newtheorem{algorithm}{Algorithm}
+\newtheorem{example}{Example}
+
+%%% General page formatting
+\renewcommand{\textfraction}{0.01}
+\renewcommand{\topfraction}{0.99}
+\renewcommand{\floatpagefraction}{0.99}
+\renewcommand{\bottomfraction}{0.99}
+
+\newenvironment{Abstract}
+{
+\it
+\begin{quote}
+\end{quote}
+}
+
+%===========================================================
+%===========================================================
+\begin{document}
+\frontmatter
+
+%=== Title page ============================================
+\pagestyle{empty}
+\begin{flushleft}
+\vspace{10mm}
+{\huge The Theory and Computation of Digital Surface Curvature}\\
+\vspace{25mm}
+{\large by John Rugis}\\
+\end{flushleft}
+\newpage
+
+%=== Copyright ======================================
+%\cleardoublepage
+\pagestyle{fancyplain}
+
+\begin{flushleft}
+The Theory and Computation of Digital Surface Curvature\\
+by John Rugis\\
+\vspace{1cm}
+Copyright 2016 J. Rugis\\
+\vspace{1cm}
+\begin{figure}[h]
+\epsfig{file=cc_logo, height=12mm}
+\hspace{0.5cm}
+\epsfig{file=by-nc-sa, height=12mm}
+\end{figure}
+
+\end{flushleft}
+
+\input{chapters/Introduction/introduction}
+
+%=== Table of Contents =====================================
+\cleardoublepage
+\pagestyle{fancyplain}
+\lhead[]{\fancyplain{}{\rightmark}}
+\chead[\fancyplain{}{}]{\fancyplain{}{}}
+\rhead[\fancyplain{}{\leftmark}]{\fancyplain{}{}}
+\tableofcontents
+
+\mainmatter
+
+%=== Chapters ==============================================
+%%% Customisation of the header and footer for the chapters
+\pagestyle{headings}
+\newcommand{\publ}{}
+\pagestyle{fancyplain}
+%\setlength{\headrulewidth}{0.3pt}
+%\setlength{\footrulewidth}{0.0pt}
+%\setlength{\plainfootrulewidth}{0.0pt}
+%\setlength{\plainheadrulewidth}{0pt}
+\renewcommand{\sectionmark}[1]{\markright{\it \thesection.\ #1}}
+\renewcommand{\chaptermark}[1]{\markboth{
+       \it \thechapter.\ #1}{}}
+\lhead[\thepage]{\fancyplain{\publ}{\rightmark}}
+\chead[\fancyplain{}{}]{\fancyplain{}{}}
+\rhead[\fancyplain{}{\leftmark}]{\fancyplain{}{\thepage}}
+\lfoot[]{}
+\cfoot[]{}
+\rfoot[]{}
+
+\input{chapters/Curvature/curvature}
+\input{chapters/Estimators/estimators}
+
+\backmatter
+%=== Bibliography ==========================================
+\bibliographystyle{kluwer}
+%\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{references}
+
+\end{document}
+%===========================================================
+%===========================================================

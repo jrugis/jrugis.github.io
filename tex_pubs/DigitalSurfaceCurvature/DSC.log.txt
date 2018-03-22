@@ -1,0 +1,1742 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.28)  30 JUN 2016 00:06
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**DSC.tex
+(./DSC.tex
+LaTeX2e <2016/03/31>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write3
+\openout3 = `DSC.idx'.
+
+
+Writing index file DSC.idx
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen107
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks17
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks18
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks19
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(./harvard.sty
+Package: harvard 
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
+\c@theorem=\count101
+\c@definition=\count102
+\c@lemma=\count103
+\c@proposition=\count104
+\c@corollary=\count105
+\c@procedure=\count106
+\c@algorithm=\count107
+\c@example=\count108
+
+(./DSC.aux)
+\openout1 = `DSC.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 49.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen116
+\scratchbox=\box28
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen117
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+[1
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package epstopdf Info: Source file: <cc_logo.eps>
+(epstopdf)                    date: 2008-03-26 11:21:41
+(epstopdf)                    size: 53807 bytes
+(epstopdf)             Output file: <cc_logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-29 21:55:16
+(epstopdf)                    size: 5635 bytes
+(epstopdf)             Command: <epstopdf --outfile=cc_logo-eps-converted-to.pd
+f cc_logo.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+
+<cc_logo-eps-converted-to.pdf, id=7, 305.14pt x 73.27374pt>
+File: cc_logo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cc_logo-eps-converted-to.pdf>
+Package pdftex.def Info: cc_logo-eps-converted-to.pdf used on input line 73.
+(pdftex.def)             Requested size: 142.18195pt x 34.1433pt.
+Package epstopdf Info: Source file: <by-nc-sa.eps>
+(epstopdf)                    date: 2008-03-28 12:29:13
+(epstopdf)                    size: 71022 bytes
+(epstopdf)             Output file: <by-nc-sa-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-29 21:56:55
+(epstopdf)                    size: 8299 bytes
+(epstopdf)             Command: <epstopdf --outfile=by-nc-sa-eps-converted-to.p
+df by-nc-sa.eps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+
+<by-nc-sa-eps-converted-to.pdf, id=8, 121.45375pt x 43.16125pt>
+File: by-nc-sa-eps-converted-to.pdf Graphic file (type pdf)
+
+<use by-nc-sa-eps-converted-to.pdf>
+Package pdftex.def Info: by-nc-sa-eps-converted-to.pdf used on input line 75.
+(pdftex.def)             Requested size: 96.07896pt x 34.1433pt.
+ (./chapters/Introduction/introduction.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <./cc_logo-eps-converted-to.pdf> <./by-nc-sa-eps-converted-to.pdf>]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+) [3
+
+] (./DSC.toc
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write4
+\openout4 = `DSC.toc'.
+
+ [4
+
+
+]
+(./chapters/Curvature/curvature.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 15.
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Introduction/axes.eps>
+(epstopdf)                    date: 2008-03-26 15:14:52
+(epstopdf)                    size: 165036 bytes
+(epstopdf)             Output file: <chapters/Introduction/axes-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2016-06-29 15:55:49
+(epstopdf)                    size: 7372 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Introduction/axes-
+eps-converted-to.pdf chapters/Introduction/axes.eps>
+(epstopdf)             \includegraphics on input line 21.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Introduction/axes-eps-converted-to.pdf, id=26, 173.64874pt x 109.4087
+5pt>
+File: chapters/Introduction/axes-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapters/Introduction/axes-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Introduction/axes-eps-converted-to.pdf used o
+n input line 21.
+(pdftex.def)             Requested size: 180.63812pt x 113.81102pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+[1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/curves.eps>
+(epstopdf)                    date: 2007-09-18 17:07:34
+(epstopdf)                    size: 170548 bytes
+(epstopdf)             Output file: <chapters/Curvature/curves-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:01
+(epstopdf)                    size: 6000 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/curves-e
+ps-converted-to.pdf chapters/Curvature/curves.eps>
+(epstopdf)             \includegraphics on input line 57.
+Package epstopdf Info: Output file is already uptodate.
+<chapters/Curvature/curves-eps-converted-to.pdf, id=32, 230.8625pt x 72.27pt>
+File: chapters/Curvature/curves-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chapters/Curvature/curves-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/curves-eps-converted-to.pdf used on
+ input line 57.
+(pdftex.def)             Requested size: 272.68661pt x 85.35826pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+[2 <./chapters/Introduction/axes-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+[3 <./chapters/Curvature/curves-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 143.
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/curvature1.eps>
+(epstopdf)                    date: 2007-10-31 11:50:54
+(epstopdf)                    size: 162976 bytes
+(epstopdf)             Output file: <chapters/Curvature/curvature1-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:02
+(epstopdf)                    size: 7463 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/curvatur
+e1-eps-converted-to.pdf chapters/Curvature/curvature1.eps>
+(epstopdf)             \includegraphics on input line 151.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/curvature1-eps-converted-to.pdf, id=70, 112.42pt x 113.4237
+5pt>
+File: chapters/Curvature/curvature1-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use chapters/Curvature/curvature1-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/curvature1-eps-converted-to.pdf use
+d on input line 151.
+(pdftex.def)             Requested size: 112.80397pt x 113.81102pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/k_undefined.eps>
+(epstopdf)                    date: 2007-09-09 21:58:26
+(epstopdf)                    size: 145255 bytes
+(epstopdf)             Output file: <chapters/Curvature/k_undefined-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:02
+(epstopdf)                    size: 2790 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/k_undefi
+ned-eps-converted-to.pdf chapters/Curvature/k_undefined.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/k_undefined-eps-converted-to.pdf, id=71, 103.38625pt x 51.1
+9125pt>
+File: chapters/Curvature/k_undefined-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use chapters/Curvature/k_undefined-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/k_undefined-eps-converted-to.pdf us
+ed on input line 169.
+(pdftex.def)             Requested size: 143.6686pt x 71.13188pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+[5 <./chapters/Curvature/curvature1-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/param_k_undefined.eps>
+(epstopdf)                    date: 2007-09-17 14:25:22
+(epstopdf)                    size: 173058 bytes
+(epstopdf)             Output file: <chapters/Curvature/param_k_undefined-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:03
+(epstopdf)                    size: 6577 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/param_k_
+undefined-eps-converted-to.pdf chapters/Curvature/param_k_undefined.eps>
+(epstopdf)             \includegraphics on input line 183.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/param_k_undefined-eps-converted-to.pdf, id=88, 139.52126pt 
+x 71.26625pt>
+File: chapters/Curvature/param_k_undefined-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use chapters/Curvature/param_k_undefined-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/param_k_undefined-eps-converted-to.
+pdf used on input line 183.
+(pdftex.def)             Requested size: 139.25903pt x 71.13188pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+[6 <./chapters/Curvature/k_undefined-eps-converted-to.pdf> <./chapters/Curvatur
+e/param_k_undefined-eps-converted-to.pdf>]
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
+2.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
+5.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
+7.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/regions.eps>
+(epstopdf)                    date: 2007-09-10 11:05:44
+(epstopdf)                    size: 153421 bytes
+(epstopdf)             Output file: <chapters/Curvature/regions-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:04
+(epstopdf)                    size: 4258 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/regions-
+eps-converted-to.pdf chapters/Curvature/regions.eps>
+(epstopdf)             \includegraphics on input line 308.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/regions-eps-converted-to.pdf, id=107, 114.4275pt x 58.2175p
+t>
+File: chapters/Curvature/regions-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapters/Curvature/regions-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/regions-eps-converted-to.pdf used o
+n input line 308.
+(pdftex.def)             Requested size: 167.79083pt x 85.35826pt.
+
+Overfull \hbox (14.10689pt too wide) in paragraph at lines 316--317
+\OT1/ppl/m/n/12 A closed sim-ple pla-nar curve sep-a-rates the plane into two r
+e-gions: a bounded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/neighborhood.eps>
+(epstopdf)                    date: 2007-09-09 19:26:56
+(epstopdf)                    size: 160665 bytes
+(epstopdf)             Output file: <chapters/Curvature/neighborhood-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:05
+(epstopdf)                    size: 4408 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/neighbor
+hood-eps-converted-to.pdf chapters/Curvature/neighborhood.eps>
+(epstopdf)             \includegraphics on input line 330.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/neighborhood-eps-converted-to.pdf, id=108, 120.45pt x 60.22
+5pt>
+File: chapters/Curvature/neighborhood-eps-converted-to.pdf Graphic file (type p
+df)
+ <use chapters/Curvature/neighborhood-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/neighborhood-eps-converted-to.pdf u
+sed on input line 330.
+(pdftex.def)             Requested size: 113.8148pt x 56.9055pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+[8 <./chapters/Curvature/regions-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <chapters/Curvature/polarity.eps>
+(epstopdf)                    date: 2007-09-12 18:57:16
+(epstopdf)                    size: 164629 bytes
+(epstopdf)             Output file: <chapters/Curvature/polarity-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:05
+(epstopdf)                    size: 5238 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/polarity
+-eps-converted-to.pdf chapters/Curvature/polarity.eps>
+(epstopdf)             \includegraphics on input line 349.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/polarity-eps-converted-to.pdf, id=115, 166.6225pt x 68.255p
+t>
+File: chapters/Curvature/polarity-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapters/Curvature/polarity-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/polarity-eps-converted-to.pdf used 
+on input line 349.
+(pdftex.def)             Requested size: 208.38692pt x 85.35826pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+[9 <./chapters/Curvature/neighborhood-eps-converted-to.pdf> <./chapters/Curvatu
+re/polarity-eps-converted-to.pdf>]
+Overfull \hbox (0.16432pt too wide) in paragraph at lines 377--379
+\OT1/ppl/m/n/12 where $\OT1/cmr/bx/n/12 p\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u; v
+\OT1/cmr/m/n/12 )$ \OT1/ppl/m/n/12 is a con-tin-u-ous func-tion, $\OT1/cmr/bx/n
+/12 p\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u[]; v[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/
+12 6\OT1/cmr/m/n/12 = \OT1/cmr/bx/n/12 p\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u[]; 
+v[]\OT1/cmr/m/n/12 )$ \OT1/ppl/m/n/12 for all $\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
+2 u[]; v[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (3.15027pt too wide) in paragraph at lines 377--379
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u[]; v[]\OT1/cmr/m/n/12 )$\OT1/ppl/m/n/12 , $
+\OMS/cmsy/m/n/12 8\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 )([][] \OT
+1/cmr/bx/n/12 p\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u; v\OT1/cmr/m/n/12 ) = \OT1/c
+mr/bx/n/12 p\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u[]; v\OT1/cmr/m/n/12 ))$\OT1/ppl
+/m/n/12 , and $\OMS/cmsy/m/n/12 8\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u\OT1/cmr/m/
+n/12 )([][] \OT1/cmr/bx/n/12 p\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u; v\OT1/cmr/m/
+n/12 ) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--379
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/s1234.eps>
+(epstopdf)                    date: 2007-09-21 17:06:06
+(epstopdf)                    size: 586106 bytes
+(epstopdf)             Output file: <chapters/Curvature/s1234-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2016-06-29 21:24:50
+(epstopdf)                    size: 34888 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/s1234-ep
+s-converted-to.pdf chapters/Curvature/s1234.eps>
+(epstopdf)             \includegraphics on input line 383.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/s1234-eps-converted-to.pdf, id=133, 280.04625pt x 72.27pt>
+File: chapters/Curvature/s1234-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chapters/Curvature/s1234-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/s1234-eps-converted-to.pdf used on 
+input line 383.
+(pdftex.def)             Requested size: 369.88582pt x 95.45842pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+
+ []
+
+[10 <./chapters/Curvature/s1234-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 408--410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/tangent_plane.eps>
+(epstopdf)                    date: 2007-09-19 18:55:00
+(epstopdf)                    size: 304236 bytes
+(epstopdf)             Output file: <chapters/Curvature/tangent_plane-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:07
+(epstopdf)                    size: 19731 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/tangent_
+plane-eps-converted-to.pdf chapters/Curvature/tangent_plane.eps>
+(epstopdf)             \includegraphics on input line 427.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/tangent_plane-eps-converted-to.pdf, id=143, 440.64626pt x 1
+45.54375pt>
+File: chapters/Curvature/tangent_plane-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use chapters/Curvature/tangent_plane-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/tangent_plane-eps-converted-to.pdf 
+used on input line 427.
+(pdftex.def)             Requested size: 258.43257pt x 85.35826pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/surface_patch.eps>
+(epstopdf)                    date: 2007-09-25 17:05:32
+(epstopdf)                    size: 695340 bytes
+(epstopdf)             Output file: <chapters/Curvature/surface_patch-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:08
+(epstopdf)                    size: 13155 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/surface_
+patch-eps-converted-to.pdf chapters/Curvature/surface_patch.eps>
+(epstopdf)             \includegraphics on input line 460.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/surface_patch-eps-converted-to.pdf, id=147, 473.77pt x 359.
+3425pt>
+File: chapters/Curvature/surface_patch-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use chapters/Curvature/surface_patch-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/surface_patch-eps-converted-to.pdf 
+used on input line 460.
+(pdftex.def)             Requested size: 93.78362pt x 71.13188pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--474
+
+ []
+
+[12 <./chapters/Curvature/tangent_plane-eps-converted-to.pdf> <./chapters/Curva
+ture/surface_patch-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--493
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/surface_normal.eps>
+(epstopdf)                    date: 2007-09-25 19:55:56
+(epstopdf)                    size: 165157 bytes
+(epstopdf)             Output file: <chapters/Curvature/surface_normal-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:09
+(epstopdf)                    size: 5366 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/surface_
+normal-eps-converted-to.pdf chapters/Curvature/surface_normal.eps>
+(epstopdf)             \includegraphics on input line 497.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/surface_normal-eps-converted-to.pdf, id=159, 166.6225pt x 7
+5.28125pt>
+File: chapters/Curvature/surface_normal-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use chapters/Curvature/surface_normal-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/surface_normal-eps-converted-to.pdf
+ used on input line 497.
+(pdftex.def)             Requested size: 188.9448pt x 85.35826pt.
+Package epstopdf Info: Source file: <chapters/Curvature/cutting_planes.eps>
+(epstopdf)                    date: 2007-09-26 19:56:32
+(epstopdf)                    size: 1281290 bytes
+(epstopdf)             Output file: <chapters/Curvature/cutting_planes-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:11
+(epstopdf)                    size: 192880 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/cutting_
+planes-eps-converted-to.pdf chapters/Curvature/cutting_planes.eps>
+(epstopdf)             \includegraphics on input line 514.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/cutting_planes-eps-converted-to.pdf, id=160, 489.83pt x 122
+.4575pt>
+File: chapters/Curvature/cutting_planes-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use chapters/Curvature/cutting_planes-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/cutting_planes-eps-converted-to.pdf
+ used on input line 514.
+(pdftex.def)             Requested size: 341.4436pt x 85.35826pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/plane_curves.eps>
+(epstopdf)                    date: 2007-09-27 12:08:44
+(epstopdf)                    size: 1733186 bytes
+(epstopdf)             Output file: <chapters/Curvature/plane_curves-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:13
+(epstopdf)                    size: 116866 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/plane_cu
+rves-eps-converted-to.pdf chapters/Curvature/plane_curves.eps>
+(epstopdf)             \includegraphics on input line 527.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/plane_curves-eps-converted-to.pdf, id=161, 522.95375pt x 16
+1.60374pt>
+File: chapters/Curvature/plane_curves-eps-converted-to.pdf Graphic file (type p
+df)
+ <use chapters/Curvature/plane_curves-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/plane_curves-eps-converted-to.pdf u
+sed on input line 527.
+(pdftex.def)             Requested size: 349.88245pt x 108.12047pt.
+ [13 <./chapters/Curvature/surface_normal-eps-converted-to.pdf>] [14 <./chapter
+s/Curvature/cutting_planes-eps-converted-to.pdf> <./chapters/Curvature/plane_cu
+rves-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 563--565
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--604
+
+ []
+
+[15] [16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 739--741
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 742--744
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 771--772
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 804--810
+
+ []
+
+
+Overfull \hbox (16.30571pt too wide) in paragraph at lines 823--825
+\OT1/ppl/m/n/12 where we have used the no-ta-tional con-ven-tion, for ex-am-ple
+, $\OT1/cmr/bx/n/12 p[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 @\OT1/cmr/bx/n/12 p\
+OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u; v\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 =@u$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 823--825
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 847--848
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 859--865
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 887--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--897
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--901
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 902--903
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 917--918
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--931
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 952--954
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 964--965
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/eh_plot1.eps>
+(epstopdf)                    date: 2007-10-10 17:20:14
+(epstopdf)                    size: 167877 bytes
+(epstopdf)             Output file: <chapters/Curvature/eh_plot1-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:13
+(epstopdf)                    size: 5672 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/eh_plot1
+-eps-converted-to.pdf chapters/Curvature/eh_plot1.eps>
+(epstopdf)             \includegraphics on input line 969.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/eh_plot1-eps-converted-to.pdf, id=222, 123.46124pt x 110.41
+25pt>
+File: chapters/Curvature/eh_plot1-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapters/Curvature/eh_plot1-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/eh_plot1-eps-converted-to.pdf used 
+on input line 969.
+(pdftex.def)             Requested size: 111.35898pt x 99.58464pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 977--978
+
+ []
+
+[24 <./chapters/Curvature/eh_plot1-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 979--980
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 981--982
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--986
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 990--991
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 992--993
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/sphere_HK.eps>
+(epstopdf)                    date: 2007-11-07 16:13:16
+(epstopdf)                    size: 567642 bytes
+(epstopdf)             Output file: <chapters/Curvature/sphere_HK-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:14
+(epstopdf)                    size: 36291 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/sphere_H
+K-eps-converted-to.pdf chapters/Curvature/sphere_HK.eps>
+(epstopdf)             \includegraphics on input line 997.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/sphere_HK-eps-converted-to.pdf, id=235, 340.27126pt x 324.2
+1124pt>
+File: chapters/Curvature/sphere_HK-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use chapters/Curvature/sphere_HK-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/sphere_HK-eps-converted-to.pdf used
+ on input line 997.
+(pdftex.def)             Requested size: 328.50508pt x 312.9803pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1019
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1021
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/cylinder_HK.eps>
+(epstopdf)                    date: 2007-11-07 15:45:24
+(epstopdf)                    size: 655288 bytes
+(epstopdf)             Output file: <chapters/Curvature/cylinder_HK-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:16
+(epstopdf)                    size: 46041 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/cylinder
+_HK-eps-converted-to.pdf chapters/Curvature/cylinder_HK.eps>
+(epstopdf)             \includegraphics on input line 1025.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/cylinder_HK-eps-converted-to.pdf, id=239, 317.185pt x 305.1
+4pt>
+File: chapters/Curvature/cylinder_HK-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use chapters/Curvature/cylinder_HK-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/cylinder_HK-eps-converted-to.pdf us
+ed on input line 1025.
+(pdftex.def)             Requested size: 325.34901pt x 312.9803pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+
+ []
+
+[26 <./chapters/Curvature/sphere_HK-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/cone_HK.eps>
+(epstopdf)                    date: 2008-02-03 20:54:40
+(epstopdf)                    size: 6677732 bytes
+(epstopdf)             Output file: <chapters/Curvature/cone_HK-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:19
+(epstopdf)                    size: 357019 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/cone_HK-
+eps-converted-to.pdf chapters/Curvature/cone_HK.eps>
+(epstopdf)             \includegraphics on input line 1053.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/cone_HK-eps-converted-to.pdf, id=253, 314.17375pt x 307.147
+5pt>
+File: chapters/Curvature/cone_HK-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapters/Curvature/cone_HK-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/cone_HK-eps-converted-to.pdf used o
+n input line 1053.
+(pdftex.def)             Requested size: 320.16055pt x 312.9803pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1075
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1077
+
+ []
+
+[27 <./chapters/Curvature/cylinder_HK-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <chapters/Curvature/torus_HK.eps>
+(epstopdf)                    date: 2008-02-03 20:56:30
+(epstopdf)                    size: 6461150 bytes
+(epstopdf)             Output file: <chapters/Curvature/torus_HK-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:23
+(epstopdf)                    size: 316572 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/torus_HK
+-eps-converted-to.pdf chapters/Curvature/torus_HK.eps>
+(epstopdf)             \includegraphics on input line 1081.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/torus_HK-eps-converted-to.pdf, id=268, 306.14375pt x 304.13
+625pt>
+File: chapters/Curvature/torus_HK-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapters/Curvature/torus_HK-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/torus_HK-eps-converted-to.pdf used 
+on input line 1081.
+(pdftex.def)             Requested size: 315.05595pt x 312.9803pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
+
+ []
+
+[28 <./chapters/Curvature/cone_HK-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1106--1107
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/ellipsoid_HK.eps>
+(epstopdf)                    date: 2008-02-03 21:11:04
+(epstopdf)                    size: 7285567 bytes
+(epstopdf)             Output file: <chapters/Curvature/ellipsoid_HK-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:27
+(epstopdf)                    size: 332774 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/ellipsoi
+d_HK-eps-converted-to.pdf chapters/Curvature/ellipsoid_HK.eps>
+(epstopdf)             \includegraphics on input line 1111.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/ellipsoid_HK-eps-converted-to.pdf, id=276, 324.21124pt x 32
+4.21124pt>
+File: chapters/Curvature/ellipsoid_HK-eps-converted-to.pdf Graphic file (type p
+df)
+ <use chapters/Curvature/ellipsoid_HK-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/ellipsoid_HK-eps-converted-to.pdf u
+sed on input line 1111.
+(pdftex.def)             Requested size: 313.00041pt x 312.9803pt.
+ [29 <./chapters/Curvature/torus_HK-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1141
+
+ []
+
+[30 <./chapters/Curvature/ellipsoid_HK-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1167--1168
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/eh_plotC1.eps>
+(epstopdf)                    date: 2008-01-22 15:39:24
+(epstopdf)                    size: 198811 bytes
+(epstopdf)             Output file: <chapters/Curvature/eh_plotC1-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:28
+(epstopdf)                    size: 6174 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/eh_plotC
+1-eps-converted-to.pdf chapters/Curvature/eh_plotC1.eps>
+(epstopdf)             \includegraphics on input line 1172.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/eh_plotC1-eps-converted-to.pdf, id=291, 123.46124pt x 110.4
+125pt>
+File: chapters/Curvature/eh_plotC1-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use chapters/Curvature/eh_plotC1-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/eh_plotC1-eps-converted-to.pdf used
+ on input line 1172.
+(pdftex.def)             Requested size: 111.35898pt x 99.58464pt.
+Package epstopdf Info: Source file: <chapters/Curvature/ellipsoid_RX.eps>
+(epstopdf)                    date: 2008-02-03 20:40:46
+(epstopdf)                    size: 6953165 bytes
+(epstopdf)             Output file: <chapters/Curvature/ellipsoid_RX-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:31
+(epstopdf)                    size: 326644 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/ellipsoi
+d_RX-eps-converted-to.pdf chapters/Curvature/ellipsoid_RX.eps>
+(epstopdf)             \includegraphics on input line 1183.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/ellipsoid_RX-eps-converted-to.pdf, id=292, 327.2225pt x 307
+.1475pt>
+File: chapters/Curvature/ellipsoid_RX-eps-converted-to.pdf Graphic file (type p
+df)
+ <use chapters/Curvature/ellipsoid_RX-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/ellipsoid_RX-eps-converted-to.pdf u
+sed on input line 1183.
+(pdftex.def)             Requested size: 333.45795pt x 312.9803pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1191--1198
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Curvature/ellipsoid_Req.eps>
+(epstopdf)                    date: 2008-02-03 21:44:52
+(epstopdf)                    size: 3163656 bytes
+(epstopdf)             Output file: <chapters/Curvature/ellipsoid_Req-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2016-06-29 15:59:34
+(epstopdf)                    size: 168147 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Curvature/ellipsoi
+d_Req-eps-converted-to.pdf chapters/Curvature/ellipsoid_Req.eps>
+(epstopdf)             \includegraphics on input line 1202.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Curvature/ellipsoid_Req-eps-converted-to.pdf, id=293, 313.17pt x 144.
+54pt>
+File: chapters/Curvature/ellipsoid_Req-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use chapters/Curvature/ellipsoid_Req-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Curvature/ellipsoid_Req-eps-converted-to.pdf 
+used on input line 1202.
+(pdftex.def)             Requested size: 308.25204pt x 142.26378pt.
+ [31 <./chapters/Curvature/eh_plotC1-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1215
+
+ []
+
+) (./chapters/Estimators/estimators.tex [32 <./chapters/Curvature/ellipsoid_RX-
+eps-converted-to.pdf>] [33 <./chapters/Curvature/ellipsoid_Req-eps-converted-to
+.pdf>]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Overfull \hbox (2.46815pt too wide) in paragraph at lines 11--12
+\OT1/ppl/m/n/12 can be sep-a-rated into two cat-e-gories: volume-based and rang
+e-based. Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Overfull \hbox (0.83307pt too wide) in paragraph at lines 13--14
+[]\OT1/ppl/m/n/12 Voxel dig-i-ti-za-tions, as shown, for ex-am-ple, in Fig-ure 
+2.1[](b), are volume-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+[34
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Estimators/digitize.eps>
+(epstopdf)                    date: 2007-12-11 16:29:32
+(epstopdf)                    size: 455357 bytes
+(epstopdf)             Output file: <chapters/Estimators/digitize-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2016-06-29 16:00:53
+(epstopdf)                    size: 105497 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Estimators/digitiz
+e-eps-converted-to.pdf chapters/Estimators/digitize.eps>
+(epstopdf)             \includegraphics on input line 20.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Estimators/digitize-eps-converted-to.pdf, id=325, 417.56pt x 122.4575
+pt>
+File: chapters/Estimators/digitize-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use chapters/Estimators/digitize-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Estimators/digitize-eps-converted-to.pdf used
+ on input line 20.
+(pdftex.def)             Requested size: 355.65944pt x 104.30983pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
+
+ []
+
+[35 <./chapters/Estimators/digitize-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 41--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--69
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Estimators/estimators5.eps>
+(epstopdf)                    date: 2008-03-26 15:27:48
+(epstopdf)                    size: 194170 bytes
+(epstopdf)             Output file: <chapters/Estimators/estimators5-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2016-06-29 16:00:18
+(epstopdf)                    size: 12007 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Estimators/estimat
+ors5-eps-converted-to.pdf chapters/Estimators/estimators5.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Estimators/estimators5-eps-converted-to.pdf, id=338, 280.04625pt x 15
+7.58875pt>
+File: chapters/Estimators/estimators5-eps-converted-to.pdf Graphic file (type p
+df)
+ <use chapters/Estimators/estimators5-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Estimators/estimators5-eps-converted-to.pdf u
+sed on input line 80.
+(pdftex.def)             Requested size: 284.52756pt x 160.11798pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+[37 <./chapters/Estimators/estimators5-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Estimators/gauss_1.eps>
+(epstopdf)                    date: 2008-03-05 18:09:06
+(epstopdf)                    size: 164820 bytes
+(epstopdf)             Output file: <chapters/Estimators/gauss_1-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-06-29 16:00:19
+(epstopdf)                    size: 5392 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Estimators/gauss_1
+-eps-converted-to.pdf chapters/Estimators/gauss_1.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Estimators/gauss_1-eps-converted-to.pdf, id=366, 74.2775pt x 66.2475p
+t>
+File: chapters/Estimators/gauss_1-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapters/Estimators/gauss_1-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Estimators/gauss_1-eps-converted-to.pdf used 
+on input line 100.
+(pdftex.def)             Requested size: 82.94995pt x 73.97716pt.
+ [38 <./chapters/Estimators/gauss_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <chapters/Estimators/gauss_2.eps>
+(epstopdf)                    date: 2008-02-17 23:20:22
+(epstopdf)                    size: 172675 bytes
+(epstopdf)             Output file: <chapters/Estimators/gauss_2-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-06-29 16:00:20
+(epstopdf)                    size: 8440 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Estimators/gauss_2
+-eps-converted-to.pdf chapters/Estimators/gauss_2.eps>
+(epstopdf)             \includegraphics on input line 122.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Estimators/gauss_2-eps-converted-to.pdf, id=380, 239.89626pt x 124.46
+5pt>
+File: chapters/Estimators/gauss_2-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapters/Estimators/gauss_2-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Estimators/gauss_2-eps-converted-to.pdf used 
+on input line 122.
+(pdftex.def)             Requested size: 202.91345pt x 105.27519pt.
+Package epstopdf Info: Source file: <chapters/Estimators/gauss_3.eps>
+(epstopdf)                    date: 2008-03-05 18:10:32
+(epstopdf)                    size: 165710 bytes
+(epstopdf)             Output file: <chapters/Estimators/gauss_3-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-06-29 16:00:21
+(epstopdf)                    size: 6312 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Estimators/gauss_3
+-eps-converted-to.pdf chapters/Estimators/gauss_3.eps>
+(epstopdf)             \includegraphics on input line 141.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Estimators/gauss_3-eps-converted-to.pdf, id=381, 90.3375pt x 103.3862
+5pt>
+File: chapters/Estimators/gauss_3-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapters/Estimators/gauss_3-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Estimators/gauss_3-eps-converted-to.pdf used 
+on input line 141.
+(pdftex.def)             Requested size: 84.53128pt x 96.73936pt.
+ [39 <./chapters/Estimators/gauss_2-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+[40 <./chapters/Estimators/gauss_3-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Estimators/estimators2.eps>
+(epstopdf)                    date: 2008-03-05 18:12:12
+(epstopdf)                    size: 170591 bytes
+(epstopdf)             Output file: <chapters/Estimators/estimators2-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2016-06-29 16:00:21
+(epstopdf)                    size: 6856 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Estimators/estimat
+ors2-eps-converted-to.pdf chapters/Estimators/estimators2.eps>
+(epstopdf)             \includegraphics on input line 182.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Estimators/estimators2-eps-converted-to.pdf, id=420, 162.6075pt x 115
+.43124pt>
+File: chapters/Estimators/estimators2-eps-converted-to.pdf Graphic file (type p
+df)
+ <use chapters/Estimators/estimators2-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Estimators/estimators2-eps-converted-to.pdf u
+sed on input line 182.
+(pdftex.def)             Requested size: 144.29344pt x 102.42992pt.
+ [41 <./chapters/Estimators/estimators2-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Estimators/estimators3.eps>
+(epstopdf)                    date: 2008-03-01 19:39:00
+(epstopdf)                    size: 174362 bytes
+(epstopdf)             Output file: <chapters/Estimators/estimators3-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2016-06-29 16:00:22
+(epstopdf)                    size: 10152 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Estimators/estimat
+ors3-eps-converted-to.pdf chapters/Estimators/estimators3.eps>
+(epstopdf)             \includegraphics on input line 238.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Estimators/estimators3-eps-converted-to.pdf, id=437, 340.27126pt x 15
+2.57pt>
+File: chapters/Estimators/estimators3-eps-converted-to.pdf Graphic file (type p
+df)
+ <use chapters/Estimators/estimators3-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Estimators/estimators3-eps-converted-to.pdf u
+sed on input line 238.
+(pdftex.def)             Requested size: 317.2953pt x 142.26378pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+[42]
+Overfull \hbox (1.50499pt too wide) in paragraph at lines 246--247
+[]\OT1/ppl/m/n/12 Recall, from Sec-tion 1.2.2[], that (signed) pla-nar line cur
+-va-ture for smooth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
+
+ []
+
+Package epstopdf Info: Source file: <chapters/Estimators/sweep.eps>
+(epstopdf)                    date: 2008-03-02 13:57:36
+(epstopdf)                    size: 168647 bytes
+(epstopdf)             Output file: <chapters/Estimators/sweep-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2016-06-29 16:00:23
+(epstopdf)                    size: 7922 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Estimators/sweep-e
+ps-converted-to.pdf chapters/Estimators/sweep.eps>
+(epstopdf)             \includegraphics on input line 256.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Estimators/sweep-eps-converted-to.pdf, id=441, 283.0575pt x 220.825pt
+>
+File: chapters/Estimators/sweep-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapters/Estimators/sweep-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Estimators/sweep-eps-converted-to.pdf used on
+ input line 256.
+(pdftex.def)             Requested size: 164.12595pt x 128.0374pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+[43 <./chapters/Estimators/estimators3-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <chapters/Estimators/sweep1.eps>
+(epstopdf)                    date: 2008-03-02 13:59:52
+(epstopdf)                    size: 193362 bytes
+(epstopdf)             Output file: <chapters/Estimators/sweep1-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2016-06-29 16:00:24
+(epstopdf)                    size: 10614 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Estimators/sweep1-
+eps-converted-to.pdf chapters/Estimators/sweep1.eps>
+(epstopdf)             \includegraphics on input line 267.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Estimators/sweep1-eps-converted-to.pdf, id=464, 474.77374pt x 216.81p
+t>
+File: chapters/Estimators/sweep1-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapters/Estimators/sweep1-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Estimators/sweep1-eps-converted-to.pdf used o
+n input line 267.
+(pdftex.def)             Requested size: 280.38937pt x 128.0374pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+[44 <./chapters/Estimators/sweep-eps-converted-to.pdf> <./chapters/Estimators/s
+weep1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <chapters/Estimators/estimators4.eps>
+(epstopdf)                    date: 2008-03-05 14:52:30
+(epstopdf)                    size: 453421 bytes
+(epstopdf)             Output file: <chapters/Estimators/estimators4-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2016-06-29 16:00:25
+(epstopdf)                    size: 43701 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/Estimators/estimat
+ors4-eps-converted-to.pdf chapters/Estimators/estimators4.eps>
+(epstopdf)             \includegraphics on input line 285.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/Estimators/estimators4-eps-converted-to.pdf, id=477, 396.48125pt x 20
+0.75pt>
+File: chapters/Estimators/estimators4-eps-converted-to.pdf Graphic file (type p
+df)
+ <use chapters/Estimators/estimators4-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/Estimators/estimators4-eps-converted-to.pdf u
+sed on input line 285.
+(pdftex.def)             Requested size: 280.98941pt x 142.26378pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+[45 <./chapters/Estimators/estimators4-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 311--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--332
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 341--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--373
+
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 374--378
+
+ []
+
+) [48] (./DSC.bbl
+Missing character: There is no – in font pplr7t!
+ [49
+
+
+] [50]
+Underfull \hbox (badness 1275) in paragraph at lines 130--134
+\OT1/ppl/m/n/12 seg-men-ta-tion us-ing curvedness-based re-gion grow-ing ap-pro
+ach,
+ []
+
+[51]
+Missing character: There is no ö in font pplr7t!
+ [52]) [53] (./DSC.aux) ) 
+Here is how much of TeX's memory you used:
+ 3401 strings out of 493027
+ 53116 string characters out of 6134069
+ 112573 words of memory out of 5000000
+ 6807 multiletter control sequences out of 15000+600000
+ 26658 words of font info for 75 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,14n,43p,1174b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/ba
+se/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on DSC.pdf (57 pages, 2448196 bytes).
+PDF statistics:
+ 577 PDF objects out of 1000 (max. 8388607)
+ 387 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+

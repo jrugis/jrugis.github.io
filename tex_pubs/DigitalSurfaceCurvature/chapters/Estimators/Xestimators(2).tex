@@ -1,0 +1,109 @@
+The surface curvature of continuous smooth lines and surfaces is a well-defined property, 
+however, when working with point set data, triangulated surfaces or 3D digital images, 
+line and surface curvatures can only be estimated \cite{Klette_2004_DG}.\\
+
+%===================================================
+\section{Digitization}
+
+Digitized 3D Objects.
+The 2D surface of solid 3D objects.
+Might need to segment solid data to extract surface data.\\
+
+We can only \emph{estimate the properties} of the actual continuous object.
+If we want to check the correctness of our estimates, additional information about the source object is required.\\
+
+\begin{figure}[tbp]
+\begin{center}
+\epsfxsize 50mm
+\epsfbox{chapters/estimators/shape1}
+\hspace{20pt}
+\epsfxsize 48mm
+\epsfbox{chapters/estimators/shape3}
+\end{center}
+\vspace{-12pt}
+\caption{Sphere, point cloud and voxel digitization.}
+\label{fig-shape1-3}
+\end{figure}
+
+\begin{figure}[tbp]
+\begin{center}
+\epsfxsize 50mm
+\epsfbox{chapters/estimators/shape2}
+\hspace{10pt}
+\epsfxsize 45mm
+\epsfbox{chapters/estimators/shape5}
+\hspace{10pt}
+\epsfxsize 45mm
+\epsfbox{chapters/estimators/shape4}
+\end{center}
+\vspace{-12pt}
+\caption{Ellipsoid, point cloud and voxel digitization.}
+\label{fig-shape2-4}
+\end{figure}
+
+%===================================================
+\subsection{???}
+Surface data is a set of points having position and value.
+Position: integer or real valued  XYZ vector.
+Value: single binary bit or integer vector (density, temperature, color, etc).
+Also edge connectivity might be given: a mesh.\\
+
+%===================================================
+\subsection{Binary grid scan}
+Gaussian digitization,
+Grid aligned point scanning.
+XYZ integer for location.
+Binary ``present or not present" value.
+Need to segment the data to identify surface points.
+
+%===================================================
+\subsection{Density scans}
+XYZ integer grid.
+Color coded real-valued density.
+
+%===================================================
+\subsection{Range finding scans}
+Spherical coordinates.
+Angle grid.
+Real valued depth.
+No color.
+
+%===================================================
+\subsection{Synthetic object data}
+Information about the source object is no problem!
+
+%===================================================
+\subsection{Real-world scan data}
+Noisy data.
+Corrupted data.
+
+%===================================================
+\section{Planar Line Curvature}
+\begin{figure}[tbp]
+\begin{center}
+\epsfxsize 50mm
+\epsfbox{chapters/estimators/curve1}
+\end{center}
+\vspace{-12pt}
+\caption{Planar line curvature estimation.}
+\label{fig-curve1}
+\end{figure}
+
+With reference to Figure~\ref{fig-curve1}, the planar line curvature can be estimated as the incremental angular advance divided by the incremental change in length
+\begin{equation}\kappa = \frac{\alpha}{(d_1+d_2)/2}
+\end{equation}
+where $d_1$ is the length of the line segment from $\mathbf{p}_1$ to $\mathbf{p}_2$and $d_2$ is the length of the line segment from $\mathbf{p}_2$ to $\mathbf{p}_3$. Consequently, the curvature can be calculated as
+\begin{equation}
+\kappa = \left(\frac{2}{||\mathbf{v}_1|| + ||\mathbf{v}_2||} \right) \:\cos^{-1} \!\! \left(\frac{\mathbf{v}_1 \cdot\mathbf{v}_2}{||\mathbf{v}_1|| \, ||\mathbf{v}_2||}\right)
+\end{equation}
+where $\mathbf{v}_1 = \mathbf{p}_2 - \mathbf{p}_1$ and$\mathbf{v}_2 = \mathbf{p}_3 - \mathbf{p}_2$.
+
+%===================================================
+\section{Gaussian Curvature}
+
+%===================================================
+\section{Mean Curvature}
+
+%===================================================
+\section{Orthogonal Cuts}
+\label{sec-orthocut-est}
